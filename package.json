@@ -2,7 +2,11 @@
   "name": "@katalina.dev/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve:admin":"nx run admin:serve:development",
+    "e2e:admin": "npx nx run admin-e2e:e2e",
+    "test:admin": "npx nx run admin:test"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.2.0",

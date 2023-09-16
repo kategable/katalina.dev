@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'katalina.dev-nx-welcome',
+  selector: 'katalina-dev-nx-welcome',
   standalone: true,
   imports: [CommonModule],
   template: `
